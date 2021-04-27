@@ -1,0 +1,60 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: arial
+}
+.container {
+	width: 800px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 80px auto;
+}
+.table-countries {
+	border: 1px solid #ccc;
+	padding: 25px;
+}
+.table-countries .search {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 11px;
+    margin-bottom: 14px;
+}
+.table-countries table {
+	border-collapse: collapse;
+	width: 100%;
+	border: 1px solid #ccc;
+}
+.table-countries table th {
+	border-bottom: 1px solid #ccc;
+	background-color: #212224;
+	color: #fff;
+	padding: 10px ;
+}
+.table-countries table tbody tr td {
+	padding: 10px ;
+	text-align: center;
+}
+.table-countries .pagination {
+	list-style: none;
+	margin: 10px;
+	padding: 0px;
+}
+.table-countries .pagination::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.table-countries .pagination li {
+	float: left;
+	width: 30px;
+	height: 30px;
+	background-color: #0075ff;
+	color: #fff;
+	margin-left: 5px;
+	text-align: center;
+	line-height: 2;
+	cursor: pointer
+
+}
