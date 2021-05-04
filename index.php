@@ -19,10 +19,7 @@
 						<tr>
 					</thead>
 					<tbody>
-						<tr>
-							<td>1</td>
-							<td>Egypt</td>
-						</tr>
+						
 					</tbody>
 				</table>
 				<ul class="pagination">
